@@ -1,0 +1,504 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+a { text-decoration: none; color:white}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  transition: height 2s;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  height: auto;
+}
+
+.topnav span {
+float: left;
+
+}
+#image1
+{
+margin-top: 10px;
+transition: height 2s;
+}
+
+
+#list1
+{
+list-style-type: none;
+margin-left: 0px;
+margin-top: 10px;
+padding: 10px;
+overflow: hidden;
+float: right;
+}
+
+#list1 li {
+float: left;
+display: block;
+}
+
+li a {
+
+display: block;
+color: black;
+text-align: center;
+font-size: 1.25em;
+padding: 16px;
+margin-right: 5px;
+text-decoration: none;
+
+}
+
+li a:hover
+{
+background-color: #589240;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+background-color: white;
+color: #589240;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+.background
+{
+    background: url(img/wood-grain-bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+	z-index: -1;
+
+	
+}
+#myVideo 
+{
+    clip-path: ellipse(100% 610px at top);
+    width: 100%;
+	position: relative;
+	z-index: 1;
+
+}
+
+button:hover
+{
+background-color:gray;
+}
+
+.row
+{
+width: 100%;
+padding: 200px;
+padding-top: 0;
+}
+
+.row2
+{
+width: 100%;
+border-bottom: 1px solid gray;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bigcol
+{
+width: 50%;
+padding: 10px;
+float:left;
+}
+.col2
+{
+position: relative;
+width: 50%;
+padding: 10px;
+float:left;
+text-align: center;
+}
+
+.border
+{
+border-left: 1px solid gray;
+}
+.overlay
+{
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #589240;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  text-align: center;
+  color: white;
+}
+
+
+.image4
+{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.desc
+{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+
+}
+.image9
+{
+background:url(GreenLeafLogo.png);
+width: 40px;
+height: 40px;
+background-size: cover;
+transform: rotate(-35deg);
+}
+
+#Help
+{
+margin-top: -13px;
+font-family: 'Asap', sans-serif;
+font-weight: 700;
+line-height: 1.2em;
+margin-left: 22px;
+}
+
+#reach
+{
+font: 400 28px/1.5em 'Montserrat',sans-serif;
+margin-left: 22px;
+}
+
+.para {
+font-size: 18px;
+
+margin-top: 35px;
+margin-right: 35px;
+line-height: 1.2em;
+}
+
+.para1
+{
+margin-left: 22px;
+}
+
+.button
+{
+	background-color: #589240;
+    color: white;
+	padding: 7.5px;
+    border: none;
+    cursor: pointer;
+    position: center;
+	margin-top: 40px;
+	font-size: 18px;
+	border-radius: 2px;
+	margin-left: 22px;
+}
+
+.col2:hover .overlay
+{
+height: 100%;
+}
+
+.box
+{
+background-color: white;
+width: 100%;
+box-shadow: 5px 10px 25px #888888;
+}
+
+.clients
+{
+padding: 50px 0;
+background: rgba(0,0,0,0.05);
+
+}
+.image6
+{
+	max-width: 100%;
+}
+.center
+{
+width:30%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sub
+{
+width:40%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 20px;
+}
+.newrow
+{
+width: 100%;
+padding: 50px;
+}
+.newrow::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.col1
+{
+width: 50%;
+float: left;
+}
+
+.col3
+{
+width: 25%;
+float: left;
+}
+
+.col4
+{
+width: 25%;
+float: left;
+}
+
+.innerrow
+{
+width: 100%;
+margin-top: 25px;
+}
+
+.innerrow::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.innercol
+{
+width:100%;
+max-width: 100%;
+}
+.icons
+{
+float: left;
+}
+
+.name
+{
+width: 50%;
+float: left;
+margin-left: 25px;
+margin-top: 25px;
+}
+.image7
+{
+width: 100%;
+height: 452px;
+opacity: 0.6;
+z-index: -1;
+}
+
+.box2
+{
+
+background: white;
+padding: 70px;
+box-sizing: box-border;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: -350px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index:1;
+position: relative;
+}
+
+.pixel
+{
+position: relative;
+bottom: -74px;
+left: -70px;
+}
+
+.rightbutton
+{
+float: right;
+}
+
+.awards
+{
+width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+margin-top: 25px;
+}
+
+.green
+{
+color:  #589240;
+}
+
+.awardslist
+{
+width: 100%;
+border-bottom: 1px solid gray;
+}
+
+.awardslist::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.awcol
+{
+width: 33%;
+float: left;
+padding: 25px;
+
+}
+
+.awimg
+{
+float:left;
+}
+
+.connect
+{
+
+    background: #589240;
+    background-size: cover;
+    background-repeat: no-repeat;
+   	padding: 15px;
+    height: 380px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+
+}
+
+.connect > h3
+{
+	margin-top: 20px;
+}
+.graycenter
+{
+	color: gray;
+	text-align: center;
+}
+
+.footerpixel
+{
+max-width:100%;	
+}
+.lastmenu
+{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+.lastmenu > a
+{
+	color:black;
+	padding: 10px;
+}
+
+.lastmenu > div
+{
+padding: 20px;
+}
+
+.outer:hover {
+    fill: white;
+}
+
+.outer:hover + .inner {
+    fill:#589240;
+}
+.outer:hover + .inner1 {
+	fill: white;
+    stroke:#589240;
+}
+
+@media screen and (max-width: 940px) 
+{ 
+	#list1 { width: 100%;}
+	.dropdown-content {width: 100%;}
+   li a {display: none;}
+   #image1 { height: 40px; }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .programs { width:100%;}
+  .heading { font-size: 6vh; }
+  .heading2 { font-size: 4vh; }
+  .sub { font-size: 3vh; }
+  .bigcol { width: 100% }
+  .row { padding: 100px; }
+  .col1 { width: 100%; }
+  .col3 { width: 100%; max-width: 100%; }
+  .col3 { display: flex; }
+  .col4 { width: 100%; max-width: 100%;}
+  .col4 { display: flex; }
+  .name { margin-left:0; text-align: center;}
+  .awcol { width: 100%; }
+  
+
+  
+  
+}
+
+@media screen and (max-width: 940px)
+ {
+  .topnav.responsive {position: relative;}
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

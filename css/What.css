@@ -1,0 +1,352 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  transition: height 2s;
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+
+.topnav span {
+float: left;
+
+}
+#image1
+{
+margin-top: 10px;
+transition: height 2s;
+}
+
+
+#list1
+{
+list-style-type: none;
+margin-left: 0px;
+margin-top: 10px;
+padding: 10px;
+overflow: hidden;
+float: right;
+}
+
+#list1 li {
+float: left;
+display: block;
+}
+
+li a {
+
+display: block;
+color: black;
+text-align: center;
+font-size: 1.25em;
+padding: 16px;
+margin-right: 5px;
+text-decoration: none;
+
+}
+
+li a:hover
+{
+background-color: #589240;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+background-color: white;
+color: #589240;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+.background
+{
+    background: url(wood-grain-bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+	z-index: -1;
+	padding-bottom: 110px;
+	
+}
+.image2
+{
+width: 100%;
+height: 477px;
+opacity: 0.3;
+clip-path: ellipse(100% 501px at top);
+position: relative;
+top: 0;
+z-index: 0;
+
+}
+
+#programs
+{
+color: #589240;
+text-align: center;
+font-size: 62px;
+font-family: 'Asap', sans-serif;
+font-weight: 700;
+line-height: 1.2em;
+opacity: 1;
+position: relative;
+top: -370px;
+}
+
+.box
+{
+background: white;
+padding: 70px;
+box-sizing: box-border;
+width: 70%;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top: -200px;
+}
+
+.image9
+{
+background:url(GreenLeafLogo.png);
+width: 40px;
+height: 40px;
+background-size: cover;
+transform: rotate(-35deg);
+}
+
+#Help
+{
+margin-top: -13px;
+font-family: 'Asap', sans-serif;
+font-weight: 700;
+line-height: 1.2em;
+margin-left: 22px;
+}
+
+#reach
+{
+font: 400 28px/1.5em 'Montserrat',sans-serif;
+margin-left: 22px;
+}
+
+.para {
+font-size: 18px;
+margin-left: 22px;
+margin-top: 35px;
+margin-right: 35px;
+line-height: 1.2em;
+}
+
+.pixel
+{
+position: relative;
+bottom: -74px;
+left: -70px;
+}
+
+.row
+{
+width: 100%;
+padding: 0 200px;
+margin-top: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row1
+{
+margin-top: 40px;
+}
+.column
+
+{
+width: 50%;
+float: left;
+box-sizing: border-box;
+background: white;
+border-bottom: 1px solid gray;
+}
+
+.col1
+{
+border-right: 1px solid gray;
+}
+
+.boximage
+{
+	max-width:100%;
+	max-height: 100%;
+    vertical-align: middle;
+	position: relative;
+}
+
+.heading
+{
+margin-top: 20px;
+margin-left: 40px;
+color: #589240;
+width: 80%;
+text-align: center;
+}
+
+.header
+{
+color: #589240;
+}
+
+.container
+{
+width: 200%;
+display: none;
+background: white;
+padding-left: 40px;
+padding-top: 40px;
+box-sizing: box-border;
+}
+
+.container2
+{
+margin-left: -80.7vh;
+
+}
+
+.intro
+{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.boximage:hover ~.container
+{
+display:block;
+}
+
+.boximage:hover ~.heading
+{
+visibility:hidden;
+}
+
+
+.connect
+{
+
+    background: #589240;
+    background-size: cover;
+    background-repeat: no-repeat;
+   	padding: 15px;
+    height: 380px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+
+}
+.connect > h3
+{
+	margin-top: 20px;
+}
+
+.lastmenu
+{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+
+.lastmenu > a
+{
+padding: 20px;
+color: black;
+text-decoration: none;
+}
+
+.graycenter
+{
+	color: gray;
+	text-align: center;
+}
+
+.outer:hover {
+    fill: white;
+}
+
+.outer:hover + .inner {
+    fill:#589240;
+}
+.outer:hover + .inner1 {
+	fill: white;
+    stroke:#589240;
+}
+
+
+
+@media screen and (max-width: 940px) {
+	#list1 { width: 100%;}
+	.dropdown-content {width: 100%;}
+   li a{display: none;}
+   #image1 { height: 40px; }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .column {
+    width: 100%;
+    display: block;
+    
+  }
+  .container2
+	{
+	margin-left: 0;
+
+	}
+  
+  .container
+  {
+  width: 100%;
+  
+  }
+  .row
+  {
+  padding:0 80px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .topnav.responsive {position: relative;}
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+}

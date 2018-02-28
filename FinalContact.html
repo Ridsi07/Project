@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/contact.css" rel="stylesheet">
+<script src="js/Formvalidate.js"></script>
+<script src="js/ResponsiveNav.js"></script>
+<script src="js/Scroll.js"></script>
+<style>
+.background
+{
+    background: url("img/wood-grain-bg.png");
+   
+}
+</style>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+<span><a href="FinalHomePage.html">
+ <img src="img/Logo.png" id="image1" > 
+</a></span>	
+  <ul id="list1">
+  
+  
+  <li class="mylist dropdown">
+  <a href="FinalWhat.html" class="display dropbtn" >What We Do</a> 
+  <div class=dropdown-content >
+  <a href="FinalPrograms.html">Our Programs</a>
+  </div>
+  </li>
+  
+  <li class="mylist"><a class=display href="FinalWho.html">Who We Are</a></li>
+  <li class="mylist"><a class=display href="FinalNews.html">News</a></li>
+  <li class="mylist"><a class=display href="FinalCareer.html">Careers</a></li>
+  <li class="mylist"><a class=display href="FinalContact.html">Contact</a></li>
+  <li><a href="javascript:void(0);" target="_top" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+</ul>
+</div>
+<div class=background>
+<img src="img/learning.jpg" class=image2>
+<h1 id=programs>Contact Us</h1>
+<div class=box> 
+<div class=image9> </div>
+<h1 id="Help">Knock, Knock, <h1>
+<h2 id="reach">our door is always open </h2>
+<p class=para> Interested in joining our program, becoming a member of our team or just need someone to talk to? 
+Give us a shout, we'd love to hear from you!
+</p>
+<img src="img/pixels.png" class=pixel>
+</div>
+
+<div id="error"></div>
+
+<form name="myForm" onsubmit="return validateForm()" method="post" class=form1>
+<div class=row>
+<div class=leftcol>
+<p>First name:*<br></p>
+  <input type="text" name="firstname" value="">
+</div>
+<div class=rightcol> 
+<p>Last name:*<br></p>
+  <input type="text" name="lastname" value="">
+</div>
+</div>
+<div class=row>
+<div class=street>
+Street:*<br>
+  <input  type="text" name="street" value="">
+</div>
+</div>
+<div class=row>
+ <div class=col1>
+City:*<br>
+  <input type="text" name="city" value="">
+ </div>
+ <div class=col2>
+State:*<br>
+  <select id="state">
+    <option value="Default">Please Select..</option>
+    <option value="Alabama">Alabama</option>
+    <option value="Alaska">Alaska</option>
+    <option value="Arizona">Arizona</option>
+  </select>
+ </div>
+ <div class=col3>
+ Zipcode:*<br>
+  <input type="text" name="zipcode" value="">
+ </div>
+ </div>
+ <div class=leftcol>
+Phone:*<br>
+  <input type="text" name="number" value="">
+</div>
+<div class=rightcol> 
+Email:*<br>
+  <input type="text" name="email" value="">
+</div>
+What prompted you to contact us today?*<br>
+  <select id="contact">
+    <option value="Default">Please Select..</option>
+    <option value="1">Referal</option>
+    <option value="2">Previous Customer</option>
+    <option value="3">Internet/ Web search</option>
+  </select>
+ 
+<div id="space" style="margin-top:20px">Describe your concerns: <br>
+<textarea id="textarea" name="subject" placeholder="" ></textarea>
+</div>
+<input type="submit" value="Send">
+ 
+</form> 
+
+<div class=statement>Privacy Statement: Your privacy is valued! Your personal information will be kept confidential and will not be redistributed 
+or shared with any third parties.</div>
+
+</div>
+<div class=connect>
+<h1> Hey, You!</h1>
+<h3> Keep in touch and follow us in the social sphere !</h3>
+
+<div class=socialmedia>
+<svg width="100" height="100">
+  <circle class=outer cx="50" cy="50" r="30"
+  stroke="white" stroke-width="4" fill="#589240" />
+  <text class=inner fill="#ffffff" font-size="30" font-family="Verdana"
+  x="45" y="60">f</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+<svg width="100" height="100">
+  <circle class=outer cx="50" cy="50" r="30"
+  stroke="white" stroke-width="4" fill="#589240" />
+    <rect class=inner1 x="35" y="35" rx="8" ry="8" width="30" height="30" style="fill:#589240;stroke:white;stroke-width:5;" />
+	<circle class=inner1 cx="50" cy="50" r="8"
+  stroke="white" stroke-width="4" fill="#589240" />
+  <circle  class=inner1 cx="58" cy="40" r="0.2"
+  stroke="white" stroke-width="4" fill="white" />
+  
+Sorry, your browser does not support inline SVG.
+</svg>
+<svg width="100" height="100">
+  <circle class=outer cx="50" cy="50" r="30"
+  stroke="white" stroke-width="4" fill="#589240" />
+  <text class=inner fill="#ffffff" font-size="30" font-family="Verdana"
+  x="38" y="60">in</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+
+</div>
+
+</div>
+<div class=footer>
+
+<div class=lastmenu>
+<a href="FinalWhat.html"> What We Do </a>
+<a href="FinalWho.html"> Who We Are </a>
+<a href="FinalNews.html"> News </a>
+<a href="FinalCareer.html"> Career </a>
+<a href="FinalContact.html"> Contact </a>
+</div>
+
+<div class=graycenter> Treehouse is a division of </div>
+<center><img src="img/CNlogo.png"></center>
+<div class=graycenter> 400 Atlantic Center, Bridgeport, CT 06604 | 1-203-551-0846 | riddhi.desai830@gmail.com </div>
+<img src="img/pixels2.png" style="max-width:100%">
+
+</div>
+
+</body>
+</html>

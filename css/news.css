@@ -1,0 +1,269 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  transition: height 2s;
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+
+.topnav span {
+float: left;
+
+}
+#image1
+{
+margin-top: 10px;
+transition: height 2s;
+}
+
+
+ul
+{
+list-style-type: none;
+margin-left: 0px;
+margin-top: 10px;
+padding: 10px;
+overflow: hidden;
+float: right;
+}
+
+li {
+float: left;
+display: block;
+}
+
+li a {
+
+display: block;
+color: black;
+text-align: center;
+font-size: 1.25em;
+padding: 16px;
+margin-right: 5px;
+text-decoration: none;
+
+}
+
+li a:hover
+{
+background-color: #589240;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+background-color: white;
+color: #589240;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+.background
+{
+    background: url(wood-grain-bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+	z-index: -1;
+	padding-bottom: 110px;
+	
+}
+.image2
+{
+width: 100%;
+height: 477px;
+opacity: 0.3;
+clip-path: ellipse(100% 501px at top);
+position: relative;
+top: 0;
+z-index: 0;
+
+}
+
+#programs
+{
+color: #589240;
+text-align: center;
+font-size: 62px;
+font-family: 'Asap', sans-serif;
+font-weight: 700;
+line-height: 1.2em;
+opacity: 1;
+position: relative;
+top: -370px;
+}
+
+
+.row
+{
+width: 100%;
+padding: 0 90px;
+margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row1
+{
+margin-top: -240px;
+}
+.column
+
+{
+width: 50%;
+float: left;
+box-sizing: border-box;
+padding: 10px;
+}
+
+.boximage
+{
+	max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+	position: relative;
+}
+.container
+{
+background: white;
+padding: 20px;
+
+}
+.date {
+  color: grey;
+}
+.heading
+{
+margin-top: 20px;
+color: #589240;
+}
+.details
+{
+margin-top: 20px;
+}
+
+.button
+{
+	background-color: #589240;
+    color: white;
+	padding: 5px;
+    border: none;
+    cursor: pointer;
+    position: center;
+	margin-top: 40px;
+	font-size: 18px;
+	border-radius: 2px;
+}
+
+.button:hover
+{
+background-color: gray;
+}
+.connect
+{
+
+    background: #589240;
+    background-size: cover;
+    background-repeat: no-repeat;
+   	padding: 15px;
+    height: 380px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+
+}
+
+.connect > h3
+{
+	margin-top: 20px;
+}
+
+.lastmenu
+{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+
+.lastmenu > a
+{
+padding: 20px;
+color: black;
+text-decoration: none;
+}
+
+.graycenter
+{
+	color: gray;
+	text-align: center;
+}
+
+.outer:hover {
+    fill: white;
+}
+
+.outer:hover + .inner {
+    fill:#589240;
+}
+.outer:hover + .inner1 {
+	fill: white;
+    stroke:#589240;
+}
+
+@media screen and (max-width: 940px) {
+	#list1 { width: 100%;}
+	.dropdown-content {width: 100%;}
+   li a{display: none;}
+   #image1 { height: 40px; }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .column {
+    width: 100%;
+    display: block;
+    
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .topnav.responsive {position: relative;}
+  .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+}
